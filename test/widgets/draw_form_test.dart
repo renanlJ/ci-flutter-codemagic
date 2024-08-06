@@ -45,7 +45,7 @@ void main() {
       await tester.pumpAndSettle();
 
       // Verify if the selected option is displayed
-      expect(find.text('Alice'), findsOneWidget);
+      expect(find.text('Alice3'), findsOneWidget);
       expect(find.text('Sortear!'), findsOneWidget);
 
       // Tap the "Sortear!" button
